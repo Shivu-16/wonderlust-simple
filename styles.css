@@ -107,14 +107,22 @@ html, body{
 }
 
 #heroLeft #elem h1{
+    position: absolute;
+    top: 100%;
+    left: 0;
     /* font-family: 'Times New Roman', Times, serif; */
     color: #fff;
     font-size: 7vw;
     /* line-height: 0.9; */
 }
 
+#heroLeft #elem h1:nth-child(1){
+    top: 0;
+}
+
 #heroLeft #elem{
     height: 9vw;
+    position: relative;
     /* background-color: red; */
     overflow: hidden;
 }
